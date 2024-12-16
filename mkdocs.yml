@@ -1,0 +1,22 @@
+site_name: "Documentação do Meu Projeto"
+theme:
+  name: 'readthedocs'
+
+use_directory_urls: false
+
+extra_javascript:
+  - assets/resize-iframes.js
+
+extra_css:
+  - assets/custom.css
+
+nav:
+  - Início: index.md
+  - Resumo dos Regimes e Composição Política: resumo_regimes_politica.md
+  - Indicadores Econômicos: indicadores_economicos.md
+  - Indicadores de Desenvolvimento Humano: indicadores_desenvolvimento_humano.md
+  - Indicadores Sociais: indicadores_sociais.md
+  - Indicadores Ambientais e de Sustentabilidade: indicadores_ambientais_sustentabilidade.md
+  - Indicadores Institucionais e de Governança: indicadores_institucionais_governanca.md
+  - Indicadores Demográficos: indicadores_demograficos.md
+  - Indicadores Culturais: indicadores_culturais.md
