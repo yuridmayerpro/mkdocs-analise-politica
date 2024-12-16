@@ -1,0 +1,12 @@
+/* Aplica fundo branco em todo o conteúdo principal */
+.wy-nav-content-wrap {
+    background: #ffffff !important;
+  }
+  
+  .wy-nav-content {
+    background: #ffffff !important;
+  }
+
+  html, body {
+    overflow-x: auto !important;
+  }
