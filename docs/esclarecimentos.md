@@ -19,21 +19,19 @@ Para conhecer em detalhes como o PSLRI é definido e calculado — incluindo fó
 ANGIOLLO, F.; WIEBRECHT, F. From Individual Parties to Party Systems: A New Approach to Calculate Party Systems’ Variables. *V-Dem Working Paper*, n. 146, 2023. Disponível em: [https://www.v-dem.net/media/publications/wp146.pdf](https://www.v-dem.net/media/publications/wp146.pdf). Acesso em: 17 maio 2025.  
 
 <br><br>
----
 
-### Categorias de PSLRI para Visualização
+## Categorias de PSLRI para Visualização
 
 Para facilitar a interpretação nos gráficos, dividi os valores do PSLRI em quatro faixas, definidas a partir da distribuição dos dados brutos:
 
-- **0,26–0,54 (Baixa Esquerda)**  
-- **0,54–0,63 (Centro-Esquerda)**  
-- **0,63–0,71 (Centro-Direita)**  
-- **0,71–1,00 (Alta Direita)**  
+**0,26–0,54 (Baixa Esquerda)**  
+**0,54–0,63 (Centro-Esquerda)**  
+**0,63–0,71 (Centro-Direita)**  
+**0,71–1,00 (Alta Direita)**  
 
-> ⚠️ **Importante:** essas faixas foram criadas **arbitrariamente** para efeito de **processamento e visualização**. Elas não refletem definições oficiais de espectro político, mas sim subdivisões práticas para ajudar na análise.
+⚠️ **Importante:** essas faixas foram criadas **arbitrariamente** para efeito de **processamento e visualização**. Elas não refletem definições oficiais de espectro político, mas sim subdivisões práticas para ajudar na análise.
 
 <br><br>
---- 
 
 ## Definições de Regimes Políticos
 
