@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="description" content="None" />
       <link rel="shortcut icon" href="img/favicon.ico" />
-    <title>Documentação do Meu Projeto</title>
+    <title>Análise de Indicadores</title>
     <link rel="stylesheet" href="css/theme.css" />
     <link rel="stylesheet" href="css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
@@ -31,7 +31,7 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
     <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
-          <a href="index.html" class="icon icon-home"> Documentação do Meu Projeto
+          <a href="index.html" class="icon icon-home"> Análise de Indicadores
         </a><div role="search">
   <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
       <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
@@ -43,11 +43,15 @@
               <ul class="current">
                 <li class="toctree-l1 current"><a class="reference internal current" href="#">Início</a>
     <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#commands">Commands</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#project-layout">Project layout</a>
-    </li>
     </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="fontes_dados.html">Fontes de Dados</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="esclarecimentos.html">Esclarecimentos</a>
                 </li>
               </ul>
               <ul>
@@ -89,7 +93,7 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
       <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="index.html">Documentação do Meu Projeto</a>
+          <a href="index.html">Análise de Indicadores</a>
         
       </nav>
       <div class="wy-nav-content">
@@ -105,26 +109,35 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands</h2>
+                <h1 id="sobre-esta-analise">Sobre esta análise</h1>
+<p><strong>Sou cientista de dados</strong> e, ao longo deste projeto, decidi avaliar por conta própria o que diversos indicadores socioeconômicos e culturais revelam sobre <strong>orientações políticas (direita/esquerda)</strong> e <strong>tipos de regime</strong>. Meu objetivo foi conduzir uma análise transparente e imparcial — uma “análise de peito aberto” — que se baseia unicamente em cruzamentos de diferentes fontes de <strong>dados oficiais e reconhecidos</strong>, sem recorrer a pressupostos ideológicos ou interpretações prévias.</p>
+<blockquote>
+<p><strong>Surpresas e Aprendizados</strong><br />
+Fiquei surpreso com algumas das informações que os dados revelaram — e, inclusive, algumas chegaram a contrariar minhas ideias iniciais — porém, como cientista de dados, pude <strong>refinar meu entendimento</strong> e <strong>ajustar minhas hipóteses</strong> com base nas evidências analisadas.</p>
+</blockquote>
+<hr />
+<p>Esta é uma investigação inicial, focada em identificar <strong>tendências gerais</strong> e <strong>relações</strong> entre variáveis como:</p>
 <ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
+<li><strong>PIB</strong>  </li>
+<li><strong>IDH</strong>  </li>
+<li><strong>Desigualdade</strong>  </li>
+<li><strong>Meio ambiente</strong>  </li>
+<li><strong>Democracia</strong></li>
 </ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre>
+<p>Não me aprofundei ainda em análises estatísticas avançadas ou em modelos complexos: aqui, você encontrará um panorama direto dos <strong>dados brutos</strong>, organizado por <strong>regime político</strong> e pelo índice <strong>Left-Right (PSLRI)</strong>.</p>
+<hr />
+<p>Nas visualizações (boxplots), cada caixa sintetiza a distribuição histórica de um indicador — considerando praticamente todos os países ao longo dos anos — para cada regime ou orientação política, funcionando como um “retrato” das conjunturas ao longo do tempo e destacando as tendências gerais e as relações entre as variáveis.</p>
+<hr />
+<blockquote>
+<p><strong>Não aceite passivamente nenhuma conclusão</strong> — nem as minhas, nem as de terceiros.<br />
+Convido você a <strong>explorar os conjuntos de dados originais</strong>, verificar cada fonte e reproduzir os cálculos.<br />
+Só assim podemos <strong>formar nossas próprias opiniões</strong> de forma consciente e responsável.</p>
+</blockquote>
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="resumo_regimes_politica.html" class="btn btn-neutral float-right" title="Resumo dos Regimes e Composição Política">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="fontes_dados.html" class="btn btn-neutral float-right" title="Fontes de Dados">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>
@@ -148,7 +161,7 @@ docs/
     
     
     
-      <span><a href="resumo_regimes_politica.html" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="fontes_dados.html" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
@@ -169,5 +182,5 @@ docs/
 
 <!--
 MkDocs version : 1.6.1
-Build Date UTC : 2024-12-16 19:51:26.705747+00:00
+Build Date UTC : 2025-05-18 01:49:46.167562+00:00
 -->

@@ -1,6 +1,6 @@
 # Resumo dos Regimes e Composição Política
 
-Este seção apresenta um panorama dos regimes políticos e da distribuição política, fornecendo visualizações para melhor compreensão.
+Este seção apresenta um panorama dos regimes políticos e da distribuição política.
 
 <br><br>
 

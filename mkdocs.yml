@@ -1,4 +1,4 @@
-site_name: "Documentação do Meu Projeto"
+site_name: "Análise de Indicadores"
 theme:
   name: 'readthedocs'
 
@@ -12,6 +12,8 @@ extra_css:
 
 nav:
   - Início: index.md
+  - Fontes de Dados: fontes_dados.md
+  - Esclarecimentos: esclarecimentos.md
   - Resumo dos Regimes e Composição Política: resumo_regimes_politica.md
   - Indicadores Econômicos: indicadores_economicos.md
   - Indicadores de Desenvolvimento Humano: indicadores_desenvolvimento_humano.md
