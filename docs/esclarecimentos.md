@@ -21,6 +21,20 @@ ANGIOLLO, F.; WIEBRECHT, F. From Individual Parties to Party Systems: A New Appr
 <br><br>
 ---
 
+### Categorias de PSLRI para Visualização
+
+Para facilitar a interpretação nos gráficos, dividi os valores do PSLRI em quatro faixas, definidas a partir da distribuição dos dados brutos:
+
+- **0,26–0,54 (Baixa Esquerda)**  
+- **0,54–0,63 (Centro-Esquerda)**  
+- **0,63–0,71 (Centro-Direita)**  
+- **0,71–1,00 (Alta Direita)**  
+
+> ⚠️ **Importante:** essas faixas foram criadas **arbitrariamente** para efeito de **processamento e visualização**. Elas não refletem definições oficiais de espectro político, mas sim subdivisões práticas para ajudar na análise.
+
+<br><br>
+--- 
+
 ## Definições de Regimes Políticos
 
 O sistema de classificação utilizado divide os países em quatro categorias principais, considerando a existência e a qualidade das eleições e o respeito às liberdades civis:
